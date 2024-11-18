@@ -44,8 +44,7 @@ public class ReceiveUserEvents {
     }
 
     private static void handleAccountingSystem(String message) {
-        System.out.println("[Accounting System] Creating user in accounting: " + message);
-        // Add actual logic to create the user in the accounting system here
+        System.out.println("[Accounting System] Creating user in accounting: " + message);        
     }
 
     private static void handleEmailSystem(String message) {
